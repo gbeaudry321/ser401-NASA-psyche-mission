@@ -1,0 +1,1 @@
+To view the main menu, and subsequently launch the game from there, you must start the game from the Main_Menu_Map level in the content folder.
