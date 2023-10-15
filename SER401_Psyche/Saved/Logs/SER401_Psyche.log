@@ -1476,3 +1476,82 @@ The following settings have been applied:
 [2023.10.15-21.08.01:918][249]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms
 [2023.10.15-21.08.01:920][249]AssetCheck: New page: Asset Save: VRTemplateMap
 [2023.10.15-21.08.01:921][249]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.10.15-21.11.55:608][290]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.10.15-21.11.58:609][612]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2023.10.15-21.11.58:693][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-21.11.58:693][612]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.15-21.11.58:836][612]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2023.10.15-21.11.59:925][612]LogViewport: Scene viewport resized to 993x584, mode Windowed.
+[2023.10.15-21.11.59:981][612]LogSlate: Took 0.008292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: ================================================
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Total job queries 106, among them cache hits 42 (39.62%)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 52 distinct outputs (81.25%)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: RAM used: 2.16 MiB of 1.60 GiB budget. Usage: 0.13%
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Shaders Compiled: 31
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Jobs assigned 31, completed 31 (100%)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Time job spent in pending queue: average 6.07 s, longest 13.45 s
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Job execution time: average 1.85 s, max 5.20 s
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Job life time (pending + execution): average 7.91 s, max 14.67
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Shader code size: average 53.997 KiB, min 24.047 KiB, max 90.141 KiB
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.68 s
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Jobs were issued in 31 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Average processing rate: 2.11 jobs/sec
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Total thread time: 52.427 s
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Total thread preprocess time: 2.05 s
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Percentage time preprocessing: 3.91%
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Effective parallelization: 3.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 5.13 sec, max 5.13 sec, min 5.13 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 5.06 sec, max 5.06 sec, min 5.06 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 4.98 sec, max 4.98 sec, min 4.98 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 4.51 sec, max 4.51 sec, min 4.51 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 9.79% of total time (compiled    1 times, average 5.13 sec, max 5.13 sec, min 5.13 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 9.65% of total time (compiled    1 times, average 5.06 sec, max 5.06 sec, min 5.06 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 9.56% of total time (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 9.50% of total time (compiled    1 times, average 4.98 sec, max 4.98 sec, min 4.98 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.61% of total time (compiled    1 times, average 4.51 sec, max 4.51 sec, min 4.51 sec)
+[2023.10.15-21.12.00:043][613]LogShaderCompilers: Display: ================================================
+[2023.10.15-21.12.04:538][893]LogSlate: Window 'Shape_Cube' being destroyed
+[2023.10.15-21.12.04:630][893]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.10.15-21.12.04:630][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-21.13.00:851][538]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Textures/custom/ryugu-in-3d-brian-may_Mat.ryugu-in-3d-brian-may_Mat
+[2023.10.15-21.13.00:883][538]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.15-21.13.00:883][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.15-21.13.01:250][538]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.15-21.13.01:250][538]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.15-21.13.01:250][538]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.15-21.13.01:250][538]MaterialEditorStats: Shader Count: 0
+[2023.10.15-21.13.01:259][538]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.10.15-21.13.01:277][538]LogViewport: Scene viewport resized to 264x289, mode Windowed.
+[2023.10.15-21.13.01:437][540]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.10.15-21.13.01:437][540]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.15-21.13.01:437][540]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.15-21.13.01:437][540]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.15-21.13.01:437][540]MaterialEditorStats: Shader Count: 10
+[2023.10.15-21.13.36:175][205]MaterialEditorStats: Texture samplers: 0/16
+[2023.10.15-21.13.36:175][205]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.15-21.13.36:175][205]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.15-21.13.36:175][205]MaterialEditorStats: Shader Count: 0
+[2023.10.15-21.13.36:291][207]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.10.15-21.13.36:291][207]MaterialEditorStats: Texture samplers: 5/16
+[2023.10.15-21.13.36:291][207]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.10.15-21.13.36:292][207]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.10.15-21.13.36:292][207]MaterialEditorStats: Shader Count: 10
+[2023.10.15-21.14.18:449][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.10.15-21.14.18:460][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.15-21.14.18:542][719]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/Custom/ryugu-in-3d-brian-may_Mat
+[2023.10.15-21.14.18:542][719]LogSavePackage: Moving '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Saved/ryugu-in-3d-brian-may_Mat7D716F914182F461D583DEA75ABA1554.tmp' to '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Content/StarterContent/Materials/Custom/ryugu-in-3d-brian-may_Mat.uasset'
+[2023.10.15-21.14.18:551][719]LogSavePackage: Moving output files for package: /Game/StarterContent/Textures/custom/ryugu-in-3d-brian-may
+[2023.10.15-21.14.18:551][719]LogSavePackage: Moving '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Saved/ryugu-in-3d-brian-may4D850BC34F560BDCA54E6896D504B72A.tmp' to '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Content/StarterContent/Textures/custom/ryugu-in-3d-brian-may.uasset'
+[2023.10.15-21.14.18:570][719]LogSavePackage: Moving output files for package: /Game/StarterContent/Textures/custom/ryugu-in-3d-brian-may_Mat
+[2023.10.15-21.14.18:570][719]LogSavePackage: Moving '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Saved/ryugu-in-3d-brian-may_Mat9E82DDF0444CB49737AD598B71E1416D.tmp' to '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Content/StarterContent/Textures/custom/ryugu-in-3d-brian-may_Mat.uasset'
+[2023.10.15-21.14.18:582][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 311 ms)
+[2023.10.15-21.14.18:585][719]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.15-21.14.18:585][719]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Materials/Custom/ryugu-in-3d-brian-may_Mat.ryugu-in-3d-brian-may_Mat
+[2023.10.15-21.14.18:585][719]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/StarterContent/Textures/custom/ryugu-in-3d-brian-may.ryugu-in-3d-brian-may
+[2023.10.15-21.14.18:585][719]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Textures/custom/ryugu-in-3d-brian-may_Mat.ryugu-in-3d-brian-may_Mat
