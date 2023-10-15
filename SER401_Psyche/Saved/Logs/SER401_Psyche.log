@@ -1431,3 +1431,48 @@ The following settings have been applied:
 [2023.10.15-21.04.11:070][493]LogInterchangeEngine: [Success] Import Done
 [2023.10.15-21.04.11:081][494]LogTexture: Display: Building textures: /Game/StarterContent/Textures/custom/ryugu-in-3d-brian-may.ryugu-in-3d-brian-may (BGRA8, 2244x1197 x1x1x1) (Required Memory Estimate: 78.619278 MB), EncodeSpeed: Fast
 [2023.10.15-21.04.11:092][494]LogInterchangeEngine: [Success] Import Done
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: ================================================
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Total job queries 102, among them cache hits 42 (41.18%)
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Tracking 60 distinct input hashes that result in 50 distinct outputs (83.33%)
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: RAM used: 2.00 MiB of 1.60 GiB budget. Usage: 0.12%
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Shaders Compiled: 31
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Jobs assigned 31, completed 31 (100%)
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Time job spent in pending queue: average 6.07 s, longest 13.45 s
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Job execution time: average 1.85 s, max 5.20 s
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Job life time (pending + execution): average 7.91 s, max 14.67
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Shader code size: average 53.997 KiB, min 24.047 KiB, max 90.141 KiB
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.68 s
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Jobs were issued in 31 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Average processing rate: 2.11 jobs/sec
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Total thread time: 52.427 s
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Total thread preprocess time: 2.05 s
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Percentage time preprocessing: 3.91%
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Effective parallelization: 3.57 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.10.15-21.04.16:096][794]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 5.13 sec, max 5.13 sec, min 5.13 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 5.06 sec, max 5.06 sec, min 5.06 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 4.98 sec, max 4.98 sec, min 4.98 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 4.51 sec, max 4.51 sec, min 4.51 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 9.79% of total time (compiled    1 times, average 5.13 sec, max 5.13 sec, min 5.13 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 9.65% of total time (compiled    1 times, average 5.06 sec, max 5.06 sec, min 5.06 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 9.56% of total time (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 9.50% of total time (compiled    1 times, average 4.98 sec, max 4.98 sec, min 4.98 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.61% of total time (compiled    1 times, average 4.51 sec, max 4.51 sec, min 4.51 sec)
+[2023.10.15-21.04.16:097][794]LogShaderCompilers: Display: ================================================
+[2023.10.15-21.07.43:115][347]Cmd: TRANSACTION UNDO
+[2023.10.15-21.07.43:115][347]LogEditorTransaction: Undo Scale Elements
+[2023.10.15-21.08.01:729][249]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.10.15-21.08.01:833][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.10.15-21.08.01:848][249]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.012603 seconds
+[2023.10.15-21.08.01:894][249]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.10.15-21.08.01:895][249]LogSavePackage: Moving '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Saved/VRTemplateMap042BDED64142975363E8FE97EBCF4B95.tmp' to '../../../../../../Users/effec/programming/unreal/ser401-NASA-psyche-mission/SER401_Psyche/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.10.15-21.08.01:906][249]LogFileHelpers: All files are already saved.
+[2023.10.15-21.08.01:906][249]LogFileHelpers: Saving map 'VRTemplateMap' took 0.127
+[2023.10.15-21.08.01:918][249]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms
+[2023.10.15-21.08.01:920][249]AssetCheck: New page: Asset Save: VRTemplateMap
+[2023.10.15-21.08.01:921][249]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
