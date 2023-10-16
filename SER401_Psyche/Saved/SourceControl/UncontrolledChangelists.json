@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Grant/Desktop/ser401-NASA-psyche-mission/SER401_Psyche/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/Grant/Desktop/ser401-NASA-psyche-mission/SER401_Psyche/Content/Psyche_Asteroid_Surface.umap",
+				"C:/Users/Grant/Desktop/ser401-NASA-psyche-mission/SER401_Psyche/Content/NewBlueprint.uasset",
+				"C:/Users/Grant/Desktop/ser401-NASA-psyche-mission/SER401_Psyche/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/Grant/Desktop/ser401-NASA-psyche-mission/SER401_Psyche/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/Grant/Desktop/ser401-NASA-psyche-mission/SER401_Psyche/Content/Main_Menu_Map.umap"
+			]
+		}
+	]
+}
