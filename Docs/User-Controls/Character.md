@@ -1,14 +1,16 @@
 # Using the Character
 
-The character has been added to the Psyche_Asteroid_Surace landscape level
+There are currently 2 characters: First Person character and a VR Character
 
-Click the play button, an orange mannequin should appear and land on the surface
-
-## Controls
+## Keyboard Controls for non-VR platforms
 
 - WASD character movement
 - Spacebar to jump
 - Mouse camera movement
+- "T" for teleport menu
+- "E" for interacting with objects when within range
+- "P" for pause menu
+- "M" for map
 
 ## To add:
 - [ ] animation
